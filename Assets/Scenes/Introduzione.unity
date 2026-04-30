@@ -153,8 +153,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -5.1118, y: 0.00077057}
-  m_SizeDelta: {x: 1978.62, y: 428.77}
+  m_AnchoredPosition: {x: -5.1118, y: -0.00094604}
+  m_SizeDelta: {x: 1978.62, y: 1221.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &119475103
 MonoBehaviour:
@@ -251,7 +251,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Illusionista
+  m_text: Giocoliere
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 9ad269c99dcf42b7aedefd83dd5a7b9d, type: 2}
@@ -513,7 +513,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CheckAnswer
   inputPanel: {fileID: 840243248}
-  answerFile: {fileID: 4900000, guid: 09ddeb1d48d21844fb6af8d4c7606e3f, type: 3}
+  answerFile: {fileID: 4900000, guid: bf51e55b5294abc41a2680a38ab03b2a, type: 3}
   narratorText: {fileID: 1355030320}
   question: 
   buttonsToShow:
@@ -554,7 +554,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -0.349}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 87, y: 49}
+  m_AnchoredPosition: {x: 98, y: 43}
   m_SizeDelta: {x: 199.9453, y: 46.3412}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &398953235
@@ -1133,8 +1133,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 80.66273, y: 0.000011444}
-  m_SizeDelta: {x: 361.3255, y: 50}
+  m_AnchoredPosition: {x: -0.0000038147, y: 0.000011444}
+  m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &675542857
 MonoBehaviour:
@@ -1222,7 +1222,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -59.276245, y: -4.0880127, z: 2.368103, w: -2.0439453}
+  m_margin: {x: -59.276245, y: -4.0880127, z: -61.881165, w: -2.0439453}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1254,7 +1254,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &688686476
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1655,7 +1655,7 @@ RectTransform:
   - {fileID: 1212607181}
   - {fileID: 1499479585}
   - {fileID: 398953234}
-  - {fileID: 847095659}
+  - {fileID: 855278715}
   m_Father: {fileID: 2016998012}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -1689,11 +1689,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::InputPanel
   canvasGroup: {fileID: 840243247}
   titleText: {fileID: 1499479586}
-  riprovaText: {fileID: 847095660}
+  riprovaText: {fileID: 855278716}
   acceptButton: {fileID: 398953235}
   inputField: {fileID: 1261948129}
   correctAnswer: 0
---- !u!1 &847095658
+--- !u!1 &855278714
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1701,9 +1701,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 847095659}
-  - component: {fileID: 847095661}
-  - component: {fileID: 847095660}
+  - component: {fileID: 855278715}
+  - component: {fileID: 855278717}
+  - component: {fileID: 855278716}
   m_Layer: 5
   m_Name: RiprovaText
   m_TagString: Untagged
@@ -1711,13 +1711,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &847095659
+--- !u!224 &855278715
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 847095658}
+  m_GameObject: {fileID: 855278714}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -1727,16 +1727,16 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 91.516846, y: 130}
+  m_AnchoredPosition: {x: 91.51697, y: 130}
   m_SizeDelta: {x: 537.2625, y: 70.4402}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &847095660
+--- !u!114 &855278716
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 847095658}
+  m_GameObject: {fileID: 855278714}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
@@ -1822,13 +1822,13 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &847095661
+--- !u!222 &855278717
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 847095658}
+  m_GameObject: {fileID: 855278714}
   m_CullTransparentMesh: 1
 --- !u!1 &905380613
 GameObject:
@@ -2400,7 +2400,7 @@ GameObject:
   - component: {fileID: 1304313360}
   - component: {fileID: 1304313361}
   m_Layer: 0
-  m_Name: ContorsionistaFile
+  m_Name: IntroduzioneFile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2430,9 +2430,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1304313359}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 41815afef2f0e7b47ad82f87fae83129, type: 3}
+  m_Script: {fileID: 11500000, guid: e397a44112b93ab44a39c4565cc7356d, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Contorsionista
+  m_EditorClassIdentifier: Assembly-CSharp::Introduzione
 --- !u!1 &1355030318
 GameObject:
   m_ObjectHideFlags: 0
@@ -2467,8 +2467,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 16.4726, y: 8.5158}
-  m_SizeDelta: {x: 1781.1813, y: 200.895}
+  m_AnchoredPosition: {x: 16.4726, y: 15.4541}
+  m_SizeDelta: {x: 1781.1813, y: 928.8318}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1355030320
 MonoBehaviour:
@@ -2604,7 +2604,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -713.82, y: 159}
+  m_AnchoredPosition: {x: -767, y: 511}
   m_SizeDelta: {x: 320.5969, y: 62.2641}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &1369666773
@@ -2687,8 +2687,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 91.51709, y: 200.01266}
-  m_SizeDelta: {x: 838.9124, y: 315.6229}
+  m_AnchoredPosition: {x: 91.51709, y: 195.3068}
+  m_SizeDelta: {x: 838.9124, y: 325.0346}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1497076369
 MonoBehaviour:
@@ -2785,7 +2785,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: ABITI SALDI (1 parola)
+  m_text: MENA QUINTINO (1 parola)
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2900,8 +2900,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.00001955, y: -435}
-  m_SizeDelta: {x: 1968.3926, y: 428.7729}
+  m_AnchoredPosition: {x: 0.00001955, y: -38.439514}
+  m_SizeDelta: {x: 1968.3926, y: 1221.8936}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1545946351
 GameObject:
@@ -2921,7 +2921,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1545946352
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2988,7 +2988,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 184196944}
         m_TargetAssemblyTypeName: ChoosePath, Assembly-CSharp
-        m_MethodName: GoToIllusionista
+        m_MethodName: GoToGiocoliere
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3254,7 +3254,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 184196944}
         m_TargetAssemblyTypeName: ChoosePath, Assembly-CSharp
-        m_MethodName: GoToEquilibrista
+        m_MethodName: GoToAcrobata
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3312,7 +3312,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1634808354}
   m_Layer: 0
-  m_Name: CONTORSIONISTA
+  m_Name: INTRODUZIONE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3753,7 +3753,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Equilibrista
+  m_text: ACROBATA
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 9ad269c99dcf42b7aedefd83dd5a7b9d, type: 2}
